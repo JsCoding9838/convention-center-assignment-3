@@ -44,19 +44,19 @@
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img style="width:400px; height: 650px; " src="./images/banner2.png" class="img-fluid d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                <div class="custom-carousel carousel-item active">
+                    <img src="./images/banner2.png" class="img-fluid d-block w-100 h-100" alt="...">
+                    <div class="carousel-caption d-md-block">
                         <h5>Welcome to join with Us</h5>
-                        <p>Australia’s touring Pride festival Summer Camp postpones debut events.</p>
+                        <p>Australia's touring Pride festival Summer Camp postpones debut events.</p>
                         <div class="slider-btn">
                             <button class="btn btn-1">Our services</button>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img style="width:400px; height: 650px; " src="./images/banner3.png" class="img-fluid d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                <div class="custom-carousel carousel-item">
+                    <img src="./images/banner3.png" class="img-fluid d-block w-100 h-100" alt="...">
+                    <div class="carousel-caption d-md-block">
                         <h5>Nice invorment</h5>
                         <p>Missing Music Festivals? These 15 Are Happening in 2022.</p>
                         <div class="slider-btn">
@@ -64,9 +64,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img style="width:400px; height: 650px; " src="./images/banner1.png" class="img-fluid d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                <div class="custom-carousel carousel-item">
+                    <img src="./images/banner1.png" class="img-fluid d-block w-100 h-100" alt="...">
+                    <div class="carousel-caption d-md-block">
                         <h5>Best Motivation</h5>
                         <p>Taylor Swift Might Release Something Special on Record Store Day.</p>
                         <div class="slider-btn">
@@ -89,35 +89,25 @@
         <!-- toast section -->
         
         <div class="container">
-            <div aria-live="polite" aria-atomic="true" class="position-relative">
-                <!-- Position it: -->
-                <!-- - `.toast-container` for spacing between toasts -->
-                <!-- - `.position-absolute`, `top-0` & `end-0` to position the toasts in the upper right corner -->
-                <!-- - `.p-3` to prevent the toasts from sticking to the edge of the container  -->
-                <div class="toast-container position-absolute top-0 end-0 p-3">
-        
-                    <!-- Then put toasts within -->
-                    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                        <div class="toast-header">
-                            <img src="..." class="rounded me-2" alt="...">
-                            <strong class="me-auto">Bootstrap</strong>
-                            <small class="text-muted">just now</small>
-                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                        </div>
-                        <div class="toast-body">
-                            See? Just like this.
-                        </div>
-                    </div>
-        
-                    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                        <div class="toast-header">
-                            <img src="..." class="rounded me-2" alt="...">
-                            <strong class="me-auto">Bootstrap</strong>
-                            <small class="text-muted">2 seconds ago</small>
-                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                        </div>
-                        <div class="toast-body">
-                            Heads up, toasts will stack automatically
+            <div class="row">
+                <div aria-live="polite" aria-atomic="true" class="position-relative">
+                    <!-- Position it: -->
+                    <!-- - `.toast-container` for spacing between toasts -->
+                    <!-- - `.position-absolute`, `top-0` & `end-0` to position the toasts in the upper right corner -->
+                    <!-- - `.p-3` to prevent the toasts from sticking to the edge of the container  -->
+                    <div class="toast-container position-absolute top-0 end-0 p-3">
+                
+                        <!-- Then put toasts within -->
+                        <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="toast-header">
+                                <img src="..." class="rounded me-2" alt="this is toast">
+                                <strong class="me-auto">Bootstrap</strong>
+                                <small class="text-muted">just now</small>
+                                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                                </div>
+                                <div class="toast-body">
+                                    See? Just like this.
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -162,7 +152,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div id="packages-btn" class="fw-bold bg-primary rounded-3 p-3">
+                        <div id="packages-btn" class="fw-bold bg-primary p-3">
                             <span class="top-hot">Hot</span>
                             <h5 class="card-title fs-3 fw-bold mb-3">$500</h5>
                             <h5 class="card-title fs-3 fw-bold">Music fastival</h5>

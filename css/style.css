@@ -6,6 +6,9 @@
 nav{
     position: relative;
 }
+.custom-carousel{
+    height: calc(100vh - 84px);
+}
 .carousel-item{
     position: relative;
     background: no-repeat scroll center;
@@ -51,6 +54,8 @@ nav{
     color: white;
     position: relative;
     top: -50px;
+    border-radius: 30px;
+    padding: 1rem 4rem;
 }
 .top-hot{
     background-color: red;
